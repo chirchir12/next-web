@@ -1,0 +1,35 @@
+.top-navbar {
+  padding: 0.5rem 1.1rem;
+  display: flex;
+  background-color: black;
+  color: #fff;
+}
+
+.top-left-nav-bar-items,
+.top-right-nav-bar-items,
+.main-nav-bar,
+.main-nav-items {
+  display: flex;
+}
+.spacer {
+  flex: 1;
+}
+
+.top-nav-bar-item {
+  padding: 0 0.4rem;
+  font-size: 0.9rem;
+}
+.main-nav-bar {
+  padding: 1rem 1.1rem;
+  -webkit-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
+  -moz-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
+  box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
+}
+.main-nav-item {
+  margin-right: 0.7rem;
+  opacity: 0.5;
+  font-weight: 400;
+}
+.main-nav-item:hover {
+  opacity: 1;
+}
