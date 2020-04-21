@@ -83,10 +83,10 @@
 
 .latest-news .news-section-1 div,
 .latest-news .news-section-2 div {
- width: 25%;
- background-color: red;
- height: 30vh;
- margin: 0.8rem;
+  width: 25%;
+  background-color: red;
+  height: 30vh;
+  margin: 0.8rem;
 }
 
 .latest-fund {
@@ -102,17 +102,16 @@
 }
 
 .latest-fund .fund-section-1 div {
- width: 25%;
- background-color: blue;
- height: 30vh;
- margin: 0.8rem;
+  width: 25%;
+  background-color: blue;
+  height: 30vh;
+  margin: 0.8rem;
 }
 
 .apps-gear-tech {
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .apps-gear-tech .apps,
@@ -129,27 +128,24 @@
 .apps-gear-tech .apps .apps-1,
 .apps-gear-tech .creative .creative-1,
 .apps-gear-tech .launch .launch-1 {
- height: 70vh;
- background-color: green;
- margin: 1rem;
-
+  height: 70vh;
+  background-color: green;
+  margin: 1rem;
 }
 
 .apps-gear-tech .gear .gear-1,
 .apps-gear-tech .podium .podium-1,
-.apps-gear-tech .distract .distract-1  {
+.apps-gear-tech .distract .distract-1 {
   height: 70vh;
   background-color: aqua;
   margin: 1rem;
-
 }
 
 .apps-gear-tech .tech .tech-1,
 .apps-gear-tech .insights .insights-1 {
- height: 70vh;
- background-color: skyblue;
- margin: 1rem;
-
+  height: 70vh;
+  background-color: skyblue;
+  margin: 1rem;
 }
 
 .apps-gear-tech .apps .apps-h3,
@@ -161,4 +157,28 @@
 .apps-gear-tech .launch .launch-h3,
 .apps-gear-tech .distract .distract-h3 {
   margin: 1rem;
+}
+
+.foooter {
+  color: #fff;
+}
+.footer-nav-items-container {
+  background-color: black;
+  opacity: 0.5;
+  padding: 1rem 0;
+}
+.copyright {
+  background-color: black;
+}
+.social-icons,
+.footer-nav-items {
+  display: flex;
+  justify-content: center;
+}
+.social-icons {
+  margin-bottom: 1rem;
+}
+.footer-nav-item {
+  margin-left: 1rem;
+  padding: 0.5rem 0;
 }
