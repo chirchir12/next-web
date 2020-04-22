@@ -1,3 +1,7 @@
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
 .top-navbar {
   padding: 0.5rem 1.1rem;
   display: flex;
@@ -116,6 +120,12 @@
 
 .apps-section .apps {
   width: 368px;
+  margin: 1.5rem 1.5rem 2rem 0;
+}
+
+.apps .appsh3 {
+  font-size: 1.5rem;
+  color: #FF4422;
 }
 
 .apps-article-main {
@@ -129,8 +139,13 @@
 .apps-article-main .most-popular {
   display: block;
   margin: 1rem;
-  padding-top: 12rem;
+  padding-top: 10rem;
   color: white;
+  line-height: 1.5rem;
+}
+
+.apps-article-main .most-popular p{
+  font-size: 0.7rem;
 }
 
 .apps-article-sub {
@@ -138,9 +153,12 @@
   display: flex;
 }
 
-.article-sub-h4 {
+.article-sub-h5 {
   width: 272px;
   padding: 10px 14px 0;
+  color: #FF4422;
+  font-size: 0.8rem;
+  line-height: 0.9rem
 }
 
 .article-sub-img {
@@ -150,19 +168,29 @@
   width: 96px;
 }
 
-.article-list ul li {
-  list-style: disc;
-  list-style-position: inside;
-  border-bottom: 0.1px solid grey;
-  padding-bottom: 9px;
-  margin-top: 10px;
-
- 
+.article-list {
+  margin-left: 20px;
 }
 
-.article-list li div {
-  display: inline;
-  text-indent: 1em;
+.article-list ul {
+ list-style: none;
+}
+
+.article-list ul li {
+  border-bottom: 0.1px solid lightgrey;
+  padding-bottom: 9px;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
+
+.article-list ul li::before {
+  color: #FF4422;
+  content: '\2022';
+  display: inline-block;
+  font-weight: bold;
+  margin-left: -1em;
+  width: 1em;
 }
 
 .foooter {
