@@ -108,55 +108,61 @@
   margin: 0.8rem;
 }
 
-.apps-gear-tech {
+.apps-section {
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
 }
 
-.apps-gear-tech .apps,
-.apps-gear-tech .gear,
-.apps-gear-tech .tech,
-.apps-gear-tech .creative,
-.apps-gear-tech .podium,
-.apps-gear-tech .insights,
-.apps-gear-tech .launch,
-.apps-gear-tech .distract {
-  width: 24.8rem;
+.apps-section .apps {
+  width: 368px;
 }
 
-.apps-gear-tech .apps .apps-1,
-.apps-gear-tech .creative .creative-1,
-.apps-gear-tech .launch .launch-1 {
-  height: 70vh;
-  background-color: green;
-  margin: 1rem;
+.apps-article-main {
+  background: url("../images/elon-musk.jpeg") no-repeat;
+  background-size: cover;
+  height: 17.25rem;
+  width: 23rem;
+  
 }
 
-.apps-gear-tech .gear .gear-1,
-.apps-gear-tech .podium .podium-1,
-.apps-gear-tech .distract .distract-1 {
-  height: 70vh;
-  background-color: aqua;
+.apps-article-main .most-popular {
+  display: block;
   margin: 1rem;
+  padding-top: 12rem;
+  color: white;
 }
 
-.apps-gear-tech .tech .tech-1,
-.apps-gear-tech .insights .insights-1 {
-  height: 70vh;
-  background-color: skyblue;
-  margin: 1rem;
+.apps-article-sub {
+  background-color: rgba(255,68,34,.06);
+  display: flex;
 }
 
-.apps-gear-tech .apps .apps-h3,
-.apps-gear-tech .gear .gear-h3,
-.apps-gear-tech .tech .tech-h3,
-.apps-gear-tech .creative .creative-h3,
-.apps-gear-tech .podium .podium-h3,
-.apps-gear-tech .insights .insights-h3,
-.apps-gear-tech .launch .launch-h3,
-.apps-gear-tech .distract .distract-h3 {
-  margin: 1rem;
+.article-sub-h4 {
+  width: 272px;
+  padding: 10px 14px 0;
+}
+
+.article-sub-img {
+  background: url("../images/vector.jpg") no-repeat;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.article-list ul li {
+  list-style: disc;
+  list-style-position: inside;
+  border-bottom: 0.1px solid grey;
+  padding-bottom: 9px;
+  margin-top: 10px;
+
+ 
+}
+
+.article-list li div {
+  display: inline;
+  text-indent: 1em;
 }
 
 .foooter {
