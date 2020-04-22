@@ -457,7 +457,7 @@ ul.timestamp-author {
   }
   .latest-news .news-section-1 .news {
     width: 100%;
-    height: 40vh;
+    height: auto;
     margin: 0.8rem auto;
   }
   .latest-fund .fund-header {
@@ -494,4 +494,27 @@ ul.timestamp-author {
   .main-content-text-container {
     margin-top: 6rem;
   }
+  .news {
+    display: flex;
+    flex-direction: row;
+  }
+  .news-body {
+    padding-left: 1rem;
+  }
+  .image-thumbnail {
+    width: 50%;
+    min-height: 50%;
+  }
+  .img-fluid {
+    height: 100%;
+  }
+  .news-title {
+    font-size: 0.9rem;
+    line-height: 150%;
+  }
+  .apps-article-main {
+    padding: 0 0.5rem;
+  }
+}
+@media screen and (min-width: 769px) {
 }
