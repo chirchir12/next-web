@@ -2,6 +2,16 @@ body {
   font-family: 'Manrope', sans-serif;
 }
 
+.logo {
+  display: none;
+  text-decoration: none;
+  padding: 5px 10px;
+  width: 5rem;
+  min-height: 100%;
+  border: 1px solid red;
+  background-image: linear-gradient(to bottom right, #c09, #f42 85%);
+}
+
 .top-navbar {
   padding: 0.5rem 1.1rem;
   display: flex;
@@ -46,13 +56,19 @@ body {
 .search-btn {
   border: 0;
   border-left: 1px solid grey;
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
   opacity: 0.7;
   background: transparent;
 }
 .search-btn:hover {
   opacity: 1;
   cursor: pointer;
+}
+.btn-menu {
+  display: none;
+  border: 0;
+  color: #f42;
+  background: transparent;
 }
 
 .wrapper {
@@ -62,6 +78,7 @@ body {
 }
 
 .billboard {
+  width: 100%;
   display: flex;
   margin-top: 0.5rem;
 }
@@ -408,4 +425,73 @@ ul.timestamp-author {
   margin-right: 0.4rem;
   opacity: 0.6;
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .logo,
+  .btn-menu {
+    display: inline-block;
+  }
+  .main-nav-items,
+  .top-navbar,
+  .date,
+  .creative {
+    display: none;
+  }
+  .search-btn {
+    border: 0;
+  }
+  .billboard {
+    display: flex;
+    flex-direction: column;
+  }
+  .billboard-main,
+  .billboard-sub,
+  .billboard-sub-1,
+  .billboard-sub-2 {
+    width: 100%;
+  }
+  .latest-news .news-section-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-news .news-section-1 .news {
+    width: 100%;
+    height: 40vh;
+    margin: 0.8rem auto;
+  }
+  .latest-fund .fund-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-fund .fund-links > li {
+    list-style: none;
+    display: block;
+    color: #ff4422;
+  }
+  .latest-fund .fund-links > li:not(:last-child) {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .funds {
+    display: flex;
+    flex-direction: column;
+  }
+  .fund-section-1 {
+    width: 100%;
+  }
+  .contain-logo {
+    display: none;
+  }
+  .main-content-text {
+    font-size: 1.7rem;
+    font-weight: 800;
+  }
+  .billboard-main {
+    height: 35vh;
+  }
+  .main-content-text-container {
+    margin-top: 6rem;
+  }
 }
