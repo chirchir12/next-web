@@ -18,6 +18,11 @@ body {
 .spacer {
   flex: 1;
 }
+.top-left-nav-bar-items,
+.top-right-nav-bar-items,
+.main-nav-items {
+  list-style: none;
+}
 
 .top-nav-bar-item {
   padding: 0 0.4rem;
@@ -125,15 +130,14 @@ body {
 
 .apps .appsh3 {
   font-size: 1.5rem;
-  color: #FF4422;
+  color: #ff4422;
 }
 
 .apps-article-main {
-  background: url("../images/elon-musk.jpeg") no-repeat;
+  background: url('../images/elon-musk.jpeg') no-repeat;
   background-size: cover;
   height: 17.25rem;
   width: 23rem;
-  
 }
 
 .apps-article-main .most-popular {
@@ -144,25 +148,25 @@ body {
   line-height: 1.5rem;
 }
 
-.apps-article-main .most-popular p{
+.apps-article-main .most-popular p {
   font-size: 0.7rem;
 }
 
 .apps-article-sub {
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, 0.06);
   display: flex;
 }
 
 .article-sub-h5 {
   width: 272px;
   padding: 10px 14px 0;
-  color: #FF4422;
+  color: #ff4422;
   font-size: 0.8rem;
-  line-height: 0.9rem
+  line-height: 0.9rem;
 }
 
 .article-sub-img {
-  background: url("../images/vector.jpg") no-repeat;
+  background: url('../images/vector.jpg') no-repeat;
   background-size: cover;
   height: 96px;
   width: 96px;
@@ -173,7 +177,7 @@ body {
 }
 
 .article-list ul {
- list-style: none;
+  list-style: none;
 }
 
 .article-list ul li {
@@ -185,7 +189,7 @@ body {
 }
 
 .article-list ul li::before {
-  color: #FF4422;
+  color: #ff4422;
   content: '\2022';
   display: inline-block;
   font-weight: bold;
