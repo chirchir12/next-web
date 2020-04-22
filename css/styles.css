@@ -96,6 +96,8 @@ body {
 
 .latest-news .news-h3 {
   margin-left: 0.8rem;
+  color: #FF4422;
+  font-size: 1.5rem;
 }
 
 .latest-news .news-section-1 {
@@ -110,23 +112,103 @@ body {
 }
 
 .latest-fund {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .latest-fund .fund-h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color:  #ff4422;
+}
+
+.latest-fund .fund-links > li{
+  list-style: none;
+  display: inline-block;
+  color: #FF4422;
+
+}
+
+.latest-fund .fund-links > li:not(:last-child) {
+  border-right: 1px solid #FF4422;
+  margin-right: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.latest-fund .fund-header {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.latest-fund .fund-section-1 .fund-profile-pic {
+  position: absolute;
+  margin-top: 0.8rem;
   margin-left: 0.8rem;
 }
 
-.latest-fund .fund-section-1 {
-  display: flex;
+.latest-fund .fund-section-1 .fund-profile {
+
+  color: white;
+  background-color: #ff4422;
+  padding-top: 0.6rem;
+  padding-bottom: 0.4rem
 }
 
-.latest-fund .fund-section-1 div {
-  width: 25%;
-  background-color: blue;
-  height: 30vh;
-  margin: 0.8rem;
+.funds{
+  display: flex;
+  flex-wrap: wrap;
 }
+
+.fund-section-1 {
+  width: 23.6%;
+  margin-right: 1rem;
+}
+
+.fund-profile .fund-profile-h3,
+.fund-capital .fund-capital-h3,
+.fund-capital .fund-capital-span {
+  margin-left: 5rem;
+}
+
+.fund-features .fund-features-span {
+  margin-left: 2rem;
+}
+
+.fund-capital .fund-capital-span {
+  font-size: 0.7rem;
+}
+
+.fund-section-1 .fund-capital {
+  
+  color: black;
+  background-color: rgba(255, 68, 34, 0.20);
+  padding-top: 0.8rem;
+  padding-bottom: 0.9rem
+}
+
+.fund-section-1 .fund-features {
+  
+  color: black;
+  background-color: rgba(255, 68, 34, 0.09);
+  padding: 0.5rem 0;
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+
+.fund-section-1 .fund-description {
+  
+  color: black;
+  background-color: rgba(255, 68, 34, 0.05);
+  padding: 0.5rem 0;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  border-top: 0.25px solid #ff4422;
+}
+
+.fund-section-1 .fund-description .description {
+  margin: 0 10px;
+}
+
 
 .apps-section {
   margin-top: 3rem;
@@ -187,11 +269,11 @@ body {
   margin-left: 20px;
 }
 
-.article-list ul {
+.article-list > ul {
   list-style: none;
 }
 
-.article-list ul li {
+.article-list > ul li {
   border-bottom: 0.1px solid lightgrey;
   padding-bottom: 9px;
   margin-top: 10px;
@@ -199,7 +281,7 @@ body {
   line-height: 1.2rem;
 }
 
-.article-list ul li::before {
+.article-list > ul li::before {
   color: #ff4422;
   content: '\2022';
   display: inline-block;
@@ -223,6 +305,7 @@ body {
 .footer-nav-items {
   display: flex;
   justify-content: center;
+  list-style: none;
 }
 .social-icons {
   margin-bottom: 1rem;
