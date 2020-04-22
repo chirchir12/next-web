@@ -14,6 +14,7 @@ body {
 .main-nav-bar,
 .main-nav-items {
   display: flex;
+  align-items: center;
 }
 .spacer {
   flex: 1;
@@ -41,6 +42,17 @@ body {
 }
 .main-nav-item:hover {
   opacity: 1;
+}
+.search-btn {
+  border: 0;
+  border-left: 1px solid grey;
+  padding: 0.5rem 1rem;
+  opacity: 0.7;
+  background: transparent;
+}
+.search-btn:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -96,7 +108,7 @@ body {
 
 .latest-news .news-h3 {
   margin-left: 0.8rem;
-  color: #FF4422;
+  color: #ff4422;
   font-size: 1.5rem;
 }
 
@@ -118,18 +130,17 @@ body {
 .latest-fund .fund-h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color:  #ff4422;
+  color: #ff4422;
 }
 
-.latest-fund .fund-links > li{
+.latest-fund .fund-links > li {
   list-style: none;
   display: inline-block;
-  color: #FF4422;
-
+  color: #ff4422;
 }
 
 .latest-fund .fund-links > li:not(:last-child) {
-  border-right: 1px solid #FF4422;
+  border-right: 1px solid #ff4422;
   margin-right: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -147,14 +158,13 @@ body {
 }
 
 .latest-fund .fund-section-1 .fund-profile {
-
   color: white;
   background-color: #ff4422;
   padding-top: 0.6rem;
-  padding-bottom: 0.4rem
+  padding-bottom: 0.4rem;
 }
 
-.funds{
+.funds {
   display: flex;
   flex-wrap: wrap;
 }
@@ -179,15 +189,13 @@ body {
 }
 
 .fund-section-1 .fund-capital {
-  
   color: black;
-  background-color: rgba(255, 68, 34, 0.20);
+  background-color: rgba(255, 68, 34, 0.2);
   padding-top: 0.8rem;
-  padding-bottom: 0.9rem
+  padding-bottom: 0.9rem;
 }
 
 .fund-section-1 .fund-features {
-  
   color: black;
   background-color: rgba(255, 68, 34, 0.09);
   padding: 0.5rem 0;
@@ -196,7 +204,6 @@ body {
 }
 
 .fund-section-1 .fund-description {
-  
   color: black;
   background-color: rgba(255, 68, 34, 0.05);
   padding: 0.5rem 0;
@@ -208,7 +215,6 @@ body {
 .fund-section-1 .fund-description .description {
   margin: 0 10px;
 }
-
 
 .apps-section {
   margin-top: 3rem;
@@ -294,12 +300,17 @@ body {
   color: #fff;
 }
 .footer-nav-items-container {
-  background-color: black;
-  opacity: 0.5;
-  padding: 1rem 0;
+  background-color: #131313;
+  padding: 3rem 0;
 }
 .copyright {
   background-color: black;
+  padding: 2rem 0;
+}
+.copyright-text {
+  text-align: center;
+  font-size: 0.86rem;
+  opacity: 0.9;
 }
 .social-icons,
 .footer-nav-items {
@@ -312,7 +323,25 @@ body {
 }
 .footer-nav-item {
   margin-left: 1rem;
-  padding: 0.5rem 0;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  background-color: #616161;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+.footer-nav-item:hover {
+  box-sizing: border-box;
+  background-color: #212121;
+  border: 1px solid #616161;
+}
+.footer-nav-link-item {
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+.footer-nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
 }
 
 .contain-logo {
