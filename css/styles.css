@@ -98,16 +98,14 @@ body {
   margin-left: 0.8rem;
 }
 
-.latest-news .news-section-1,
-.latest-news .news-section-2 {
+.latest-news .news-section-1 {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.latest-news .news-section-1 div,
-.latest-news .news-section-2 div {
-  width: 25%;
-  background-color: red;
-  height: 30vh;
+.latest-news .news-section-1 .news {
+  width: 22.7%;
+  height: 40vh;
   margin: 0.8rem;
 }
 
@@ -272,4 +270,30 @@ ul.timestamp-author {
 .sub-content-text {
   font-size: 1.7rem;
   font-weight: 800;
+}
+
+.image-thumbnail {
+  width: 100%;
+  min-height: 50%;
+}
+.news-title {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: 800;
+  display: inline-block;
+  margin: 0.5rem 0;
+  padding-right: 0.3rem;
+}
+.news-title:hover {
+  color: red;
+}
+.author-timestamp-news {
+  display: flex;
+  list-style: none;
+}
+.author-timestamp-news li {
+  margin-right: 0.4rem;
+  opacity: 0.6;
+  font-size: 0.9rem;
 }
