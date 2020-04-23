@@ -13,10 +13,10 @@ body {
 }
 
 .top-navbar {
-  padding: 0.5rem 1.1rem;
-  display: flex;
   background-color: black;
   color: #fff;
+  display: flex;
+  padding: 0.5rem 1.1rem;
 }
 
 .top-left-nav-bar-items,
@@ -123,7 +123,7 @@ body {
 }
 
 .latest-news .news-h3 {
-  color: #ff4422;
+  color: #f42;
   font-size: 1.5rem;
   margin-left: 0.8rem;
 }
@@ -144,19 +144,19 @@ body {
 }
 
 .latest-fund .fund-h3 {
-  color: #ff4422;
+  color: #f42;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .latest-fund .fund-links > li {
-  color: #ff4422;
+  color: #f42;
   display: inline-block;
   list-style: none;
 }
 
 .latest-fund .fund-links > li:not(:last-child) {
-  border-right: 1px solid #ff4422;
+  border-right: 1px solid #f42;
   margin-right: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -174,7 +174,7 @@ body {
 }
 
 .latest-fund .fund-section-1 .fund-profile {
-  background-color: #ff4422;
+  background-color: #f42;
   color: white;
   padding-bottom: 0.4rem;
   padding-top: 0.6rem;
@@ -221,7 +221,7 @@ body {
 
 .fund-section-1 .fund-description {
   background-color: rgba(255, 68, 34, 0.05);
-  border-top: 0.25px solid #ff4422;
+  border-top: 0.25px solid #f42;
   color: black;
   font-size: 0.8rem;
   line-height: 1.5rem;
@@ -244,7 +244,7 @@ body {
 }
 
 .apps .appsh3 {
-  color: #ff4422;
+  color: #f42;
   font-size: 1.5rem;
 }
 
@@ -273,7 +273,7 @@ body {
 }
 
 .article-sub-h5 {
-  color: #ff4422;
+  color: #f42;
   font-size: 0.8rem;
   line-height: 0.9rem;
   padding: 10px 14px 0;
@@ -304,7 +304,7 @@ body {
 }
 
 .article-list > ul li::before {
-  color: #ff4422;
+  color: #f42;
   content: '\2022';
   display: inline-block;
   font-weight: bold;
@@ -492,7 +492,7 @@ ul.timestamp-author {
   }
 
   .latest-fund .fund-links > li {
-    color: #ff4422;
+    color: #f42;
     display: block;
     list-style: none;
     margin-bottom: 0.5rem;
