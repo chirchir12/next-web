@@ -574,3 +574,23 @@ ul.timestamp-author {
     width: 40%;
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .latest-news .news-section-1 .news {
+    width: 22.5%;
+  }
+  .fund-section-1 {
+    width: 23.5%;
+    margin-right: 1rem;
+  }
+  .apps-section .apps {
+    width: 31.5%;
+    margin: 0 0.5rem;
+  }
+  .apps-article-main {
+    background: url(../images/elon-musk.jpeg) no-repeat;
+    background-size: cover;
+    height: 17.25rem;
+    width: 100%;
+  }
+}
