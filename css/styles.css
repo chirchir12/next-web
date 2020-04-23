@@ -525,7 +525,7 @@ ul.timestamp-author {
     width: 82%;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) {
   .billboard-main {
     height: 50vh;
   }
@@ -546,7 +546,7 @@ ul.timestamp-author {
     justify-content: center;
   }
   .latest-news .news-section-1 .news {
-    width: 30%;
+    width: 29.5%;
   }
   .funds > .fund-section-1 {
     width: 31%;
@@ -570,8 +570,7 @@ ul.timestamp-author {
     flex-wrap: wrap;
   }
   .apps-section .apps {
-    min-width: 368px;
-    width: 48%;
+    width: 47%;
     margin: 0 0.5rem;
   }
   .apps-article-main {
@@ -584,7 +583,7 @@ ul.timestamp-author {
 
 @media screen and (min-width: 1025px) {
   .latest-news .news-section-1 .news {
-    width: 22.5%;
+    width: 21.9%;
   }
   .fund-section-1 {
     width: 23.5%;
