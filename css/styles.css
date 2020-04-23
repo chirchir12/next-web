@@ -463,11 +463,13 @@ ul.timestamp-author {
   .latest-fund .fund-header {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
   .latest-fund .fund-links > li {
     list-style: none;
     display: block;
     color: #ff4422;
+    margin-bottom: 0.5rem;
   }
   .latest-fund .fund-links > li:not(:last-child) {
     border-right: 0;
