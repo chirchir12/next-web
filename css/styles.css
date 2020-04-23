@@ -517,6 +517,13 @@ ul.timestamp-author {
   .apps-article-main {
     width: 100%;
   }
+  .apps-section .apps {
+    width: 100%;
+    margin: 0 0.5rem;
+  }
+  .article-sub-h5 {
+    width: 82%;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .billboard-main {
