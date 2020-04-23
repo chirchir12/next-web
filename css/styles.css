@@ -3,13 +3,13 @@ body {
 }
 
 .logo {
-  display: none;
-  text-decoration: none;
-  padding: 5px 10px;
-  width: 5rem;
-  min-height: 100%;
-  border: 1px solid red;
   background-image: linear-gradient(to bottom right, #c09, #f42 85%);
+  border: 1px solid red;
+  display: none;
+  min-height: 100%;
+  padding: 5px 10px;
+  text-decoration: none;
+  width: 5rem;
 }
 
 .top-navbar {
@@ -23,8 +23,8 @@ body {
 .top-right-nav-bar-items,
 .main-nav-bar,
 .main-nav-items {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .spacer {
   flex: 1;
@@ -36,85 +36,79 @@ body {
 }
 
 .top-nav-bar-item {
-  padding: 0 0.4rem;
   font-size: 0.9rem;
+  padding: 0 0.4rem;
 }
 .main-nav-bar {
-  padding: 1rem 1.1rem;
-  -webkit-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
   -moz-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
+  -webkit-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
   box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
+  padding: 1rem 1.1rem;
 }
 .main-nav-item {
+  font-weight: 400;
   margin-right: 0.7rem;
   opacity: 0.5;
-  font-weight: 400;
 }
 .main-nav-item:hover {
   opacity: 1;
 }
+
 .search-btn {
+  background: transparent;
   border: 0;
   border-left: 1px solid grey;
-  padding: 0 1rem;
   opacity: 0.7;
-  background: transparent;
+  padding: 0 1rem;
 }
+
 .search-btn:hover {
-  opacity: 1;
   cursor: pointer;
+  opacity: 1;
 }
+
 .btn-menu {
-  display: none;
+  background: transparent;
   border: 0;
   color: #f42;
-  background: transparent;
+  display: none;
 }
 
 .wrapper {
+  margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
-  margin: 0 auto;
 }
 
 .billboard {
-  width: 100%;
   display: flex;
   margin-top: 0.5rem;
+  width: 100%;
 }
 
 .billboard-main {
-  color: #fff;
-  border: 0.2rem solid white;
-  height: 70vh;
-  width: 65%;
-  position: relative;
-  background-image: linear-gradient(
-      135deg,
-      rgba(255, 17, 0, 0.7),
-      rgba(0, 0, 0, 0.9)
-    ),
-    url(../images/vector.jpg);
+  background-image: linear-gradient( 135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
   background-position: 100% 100%;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.2rem solid white;
+  color: #fff;
+  height: 70vh;
+  position: relative;
+  width: 65%;
 }
 
 .billboard-sub {
-  width: 35%;
   color: #fff;
+  width: 35%;
 }
+
 .billboard-sub-1,
 .billboard-sub-2 {
-  background-image: linear-gradient(
-      135deg,
-      rgba(255, 17, 0, 0.7),
-      rgba(0, 0, 0, 0.9)
-    ),
-    url(../images/vector.jpg);
+  background-image: linear-gradient( 135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
   background-position: 100% 100%;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   border: 0.1rem solid white;
   height: 35vh;
 }
@@ -124,9 +118,9 @@ body {
 }
 
 .latest-news .news-h3 {
-  margin-left: 0.8rem;
   color: #ff4422;
   font-size: 1.5rem;
+  margin-left: 0.8rem;
 }
 
 .latest-news .news-section-1 {
@@ -135,9 +129,9 @@ body {
 }
 
 .latest-news .news-section-1 .news {
-  width: 22.7%;
   height: 40vh;
   margin: 0.8rem;
+  width: 22.7%;
 }
 
 .latest-fund {
@@ -145,15 +139,15 @@ body {
 }
 
 .latest-fund .fund-h3 {
+  color: #ff4422;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #ff4422;
 }
 
 .latest-fund .fund-links > li {
-  list-style: none;
-  display: inline-block;
   color: #ff4422;
+  display: inline-block;
+  list-style: none;
 }
 
 .latest-fund .fund-links > li:not(:last-child) {
@@ -163,22 +157,22 @@ body {
 }
 
 .latest-fund .fund-header {
-  display: flex;
   align-items: center;
+  display: flex;
   margin-right: 1rem;
 }
 
 .latest-fund .fund-section-1 .fund-profile-pic {
-  position: absolute;
-  margin-top: 0.8rem;
   margin-left: 0.8rem;
+  margin-top: 0.8rem;
+  position: absolute;
 }
 
 .latest-fund .fund-section-1 .fund-profile {
-  color: white;
   background-color: #ff4422;
-  padding-top: 0.6rem;
+  color: white;
   padding-bottom: 0.4rem;
+  padding-top: 0.6rem;
 }
 
 .funds {
@@ -187,8 +181,8 @@ body {
 }
 
 .fund-section-1 {
-  width: 23.6%;
   margin-right: 1rem;
+  width: 23.6%;
 }
 
 .fund-profile .fund-profile-h3,
@@ -206,27 +200,27 @@ body {
 }
 
 .fund-section-1 .fund-capital {
-  color: black;
   background-color: rgba(255, 68, 34, 0.2);
-  padding-top: 0.8rem;
+  color: black;
   padding-bottom: 0.9rem;
+  padding-top: 0.8rem;
 }
 
 .fund-section-1 .fund-features {
-  color: black;
   background-color: rgba(255, 68, 34, 0.09);
-  padding: 0.5rem 0;
-  line-height: 2rem;
+  color: black;
   font-size: 0.8rem;
+  line-height: 2rem;
+  padding: 0.5rem 0;
 }
 
 .fund-section-1 .fund-description {
-  color: black;
   background-color: rgba(255, 68, 34, 0.05);
-  padding: 0.5rem 0;
-  line-height: 1.5rem;
-  font-size: 0.8rem;
   border-top: 0.25px solid #ff4422;
+  color: black;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
 }
 
 .fund-section-1 .fund-description .description {
@@ -234,19 +228,19 @@ body {
 }
 
 .apps-section {
-  margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 3rem;
 }
 
 .apps-section .apps {
-  width: 368px;
   margin: 1.5rem 1.5rem 2rem 0;
+  width: 368px;
 }
 
 .apps .appsh3 {
-  font-size: 1.5rem;
   color: #ff4422;
+  font-size: 1.5rem;
 }
 
 .apps-article-main {
@@ -257,11 +251,11 @@ body {
 }
 
 .apps-article-main .most-popular {
+  color: white;
   display: block;
+  line-height: 1.5rem;
   margin: 1rem;
   padding-top: 10rem;
-  color: white;
-  line-height: 1.5rem;
 }
 
 .apps-article-main .most-popular p {
@@ -274,11 +268,11 @@ body {
 }
 
 .article-sub-h5 {
-  width: 272px;
-  padding: 10px 14px 0;
   color: #ff4422;
   font-size: 0.8rem;
   line-height: 0.9rem;
+  padding: 10px 14px 0;
+  width: 272px;
 }
 
 .article-sub-img {
@@ -298,10 +292,10 @@ body {
 
 .article-list > ul li {
   border-bottom: 0.1px solid lightgrey;
-  padding-bottom: 9px;
-  margin-top: 10px;
   font-size: 0.7rem;
   line-height: 1.2rem;
+  margin-top: 10px;
+  padding-bottom: 9px;
 }
 
 .article-list > ul li::before {
@@ -324,64 +318,75 @@ body {
   background-color: black;
   padding: 2rem 0;
 }
+
 .copyright-text {
-  text-align: center;
   font-size: 0.86rem;
   opacity: 0.9;
+  text-align: center;
 }
+
 .social-icons,
 .footer-nav-items {
   display: flex;
   justify-content: center;
   list-style: none;
 }
+
 .social-icons {
   margin-bottom: 1rem;
 }
+
 .footer-nav-item {
+  background-color: #616161;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
   margin-left: 1rem;
   padding: 0.5rem 0.7rem;
-  border-radius: 50%;
-  background-color: #616161;
-  box-sizing: border-box;
-  border: 1px solid transparent;
 }
+
 .footer-nav-item:hover {
-  box-sizing: border-box;
   background-color: #212121;
   border: 1px solid #616161;
+  box-sizing: border-box;
 }
+
 .footer-nav-link-item {
-  margin-right: 0.5rem;
   font-size: 0.9rem;
+  margin-right: 0.5rem;
 }
+
 .footer-nav-link {
-  text-decoration: none;
   color: #fff;
   font-size: 0.8rem;
+  text-decoration: none;
 }
 
 .contain-logo {
+  height: 10rem;
   margin: 1rem 0 3rem 1rem;
   width: 50%;
-  height: 10rem;
 }
+
 .img-fluid {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
+
 .date {
   position: absolute;
-  top: 2%;
   right: 2%;
+  top: 2%;
 }
+
 .main-content-text-container {
   padding: 0 1rem;
 }
+
 .main-content-text {
-  margin-top: 0.4rem;
   font-size: 3rem;
   font-weight: 800;
+  margin-top: 0.4rem;
 }
 
 ul.timestamp-author {
@@ -389,6 +394,7 @@ ul.timestamp-author {
   list-style: none;
   margin-top: 0.7rem;
 }
+
 .timestamp-author li {
   margin-right: 0.5rem;
 }
@@ -396,35 +402,40 @@ ul.timestamp-author {
 .sub-menu-content-tet-container {
   margin-top: 6rem;
 }
+
 .sub-content-text {
   font-size: 1.7rem;
   font-weight: 800;
 }
 
 .image-thumbnail {
-  width: 100%;
   min-height: 50%;
+  width: 100%;
 }
+
 .news-title {
-  text-decoration: none;
   color: black;
+  display: inline-block;
   font-size: 1rem;
   font-weight: 800;
-  display: inline-block;
   margin: 0.5rem 0;
   padding-right: 0.3rem;
+  text-decoration: none;
 }
+
 .news-title:hover {
   color: red;
 }
+
 .author-timestamp-news {
   display: flex;
   list-style: none;
 }
+
 .author-timestamp-news li {
+  font-size: 0.9rem;
   margin-right: 0.4rem;
   opacity: 0.6;
-  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -456,126 +467,159 @@ ul.timestamp-author {
     flex-direction: column;
   }
   .latest-news .news-section-1 .news {
-    width: 100%;
     height: auto;
     margin: 0.8rem auto;
+    width: 100%;
   }
+
   .latest-fund .fund-header {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
   }
+
   .latest-fund .fund-links > li {
-    list-style: none;
-    display: block;
     color: #ff4422;
+    display: block;
+    list-style: none;
     margin-bottom: 0.5rem;
   }
+
   .latest-fund .fund-links > li:not(:last-child) {
     border-right: 0;
     margin-right: 0;
     padding-right: 0;
   }
+
   .funds {
     display: flex;
     flex-direction: column;
   }
+
   .fund-section-1 {
     width: 100%;
   }
+
   .contain-logo {
     display: none;
   }
+
   .main-content-text {
     font-size: 1.7rem;
     font-weight: 800;
   }
+
   .billboard-main {
     height: 35vh;
   }
+
   .main-content-text-container {
     margin-top: 6rem;
   }
+
   .news {
     display: flex;
     flex-direction: row;
   }
+
   .news-body {
     padding-left: 1rem;
   }
+
   .image-thumbnail {
-    width: 50%;
     min-height: 50%;
+    width: 50%;
   }
+
   .img-fluid {
     height: 100%;
   }
+
   .news-title {
     font-size: 0.9rem;
     line-height: 150%;
   }
+
   .apps-article-main {
     width: 100%;
   }
+
   .apps-section .apps {
-    width: 100%;
     margin: 0 0.5rem;
+    width: 100%;
   }
+
   .article-sub-h5 {
     width: 82%;
   }
 }
+
 @media screen and (min-width: 769px) {
   .billboard-main {
     height: 50vh;
   }
+
   .billboard-sub-1,
   .billboard-sub-2 {
     height: 25vh;
   }
+
   .sub-menu-content-tet-container {
     margin-top: 5rem;
   }
+
   .main-content-text {
     font-size: 1.7rem;
   }
+
   .sub-content-text {
     font-size: 1.3rem;
   }
+
   .funds {
     justify-content: center;
   }
+
   .latest-news .news-section-1 .news {
     width: 29.5%;
   }
+
   .funds > .fund-section-1 {
     width: 31%;
   }
+
   .funds > .fund-section-1:last-child {
     display: none;
   }
+
   .funds > .fund-section-1:not(:nth-child(3)) {
     margin-right: 1rem;
   }
+
   .latest-fund .fund-h3 {
     margin: 0;
   }
+
   .latest-fund .fund-header {
     margin-bottom: 1rem;
   }
+
   .apps-section {
-    width: 100%;
-    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2rem;
+    width: 100%;
   }
+
   .apps-section .apps {
-    width: 47%;
     margin: 0 0.5rem;
+    width: 47%;
   }
+
   .apps-article-main {
     width: 100%;
   }
+
   .article-sub-img {
     width: 40%;
   }
@@ -585,17 +629,20 @@ ul.timestamp-author {
   .latest-news .news-section-1 .news {
     width: 21.9%;
   }
+
   .fund-section-1 {
-    width: 23.5%;
     margin-right: 1rem;
+    width: 23.5%;
   }
+
   .apps-section .apps {
-    width: 31.5%;
     margin: 0 0.5rem;
+    width: 31.5%;
   }
+
   .apps-article-main {
-    background: url(../images/elon-musk.jpeg) no-repeat;
     background-size: cover;
+    background: url(../images/elon-musk.jpeg) no-repeat;
     height: 17.25rem;
     width: 100%;
   }
