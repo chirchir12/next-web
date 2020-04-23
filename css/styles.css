@@ -513,7 +513,7 @@ ul.timestamp-author {
     line-height: 150%;
   }
   .apps-article-main {
-    padding: 0 0.5rem;
+    width: 100%;
   }
 }
 @media screen and (min-width: 769px) {
