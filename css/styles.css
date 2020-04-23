@@ -92,7 +92,7 @@ body {
 }
 
 .billboard-main {
-  background-image: linear-gradient( 135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
+  background-image: linear-gradient(135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,7 +110,7 @@ body {
 
 .billboard-sub-1,
 .billboard-sub-2 {
-  background-image: linear-gradient( 135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
+  background-image: linear-gradient(135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,6 +147,24 @@ body {
   color: #f42;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.timestamp-author li {
+  margin-right: 0.5rem;
+}
+
+.author-timestamp-news li {
+  font-size: 0.9rem;
+  margin-right: 0.4rem;
+  opacity: 0.6;
+}
+
+.article-list > ul li {
+  border-bottom: 0.1px solid lightgrey;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  margin-top: 10px;
+  padding-bottom: 9px;
 }
 
 .latest-fund .fund-links > li {
@@ -295,14 +313,6 @@ body {
   list-style: none;
 }
 
-.article-list > ul li {
-  border-bottom: 0.1px solid lightgrey;
-  font-size: 0.7rem;
-  line-height: 1.2rem;
-  margin-top: 10px;
-  padding-bottom: 9px;
-}
-
 .article-list > ul li::before {
   color: #f42;
   content: '\2022';
@@ -402,10 +412,6 @@ ul.timestamp-author {
   margin-top: 0.7rem;
 }
 
-.timestamp-author li {
-  margin-right: 0.5rem;
-}
-
 .sub-menu-content-tet-container {
   margin-top: 6rem;
 }
@@ -437,12 +443,6 @@ ul.timestamp-author {
 .author-timestamp-news {
   display: flex;
   list-style: none;
-}
-
-.author-timestamp-news li {
-  font-size: 0.9rem;
-  margin-right: 0.4rem;
-  opacity: 0.6;
 }
 
 @media screen and (max-width: 768px) {
@@ -477,6 +477,11 @@ ul.timestamp-author {
   .latest-news .news-section-1 {
     display: flex;
     flex-direction: column;
+  }
+
+  .news {
+    display: flex;
+    flex-direction: row;
   }
 
   .latest-news .news-section-1 .news {
@@ -528,12 +533,7 @@ ul.timestamp-author {
 
   .main-content-text-container {
     margin-top: 6rem;
-  }
-
-  .news {
-    display: flex;
-    flex-direction: row;
-  }
+  } 
 
   .news-body {
     padding-left: 1rem;
