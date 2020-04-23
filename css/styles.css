@@ -26,9 +26,11 @@ body {
   align-items: center;
   display: flex;
 }
+
 .spacer {
   flex: 1;
 }
+
 .top-left-nav-bar-items,
 .top-right-nav-bar-items,
 .main-nav-items {
@@ -39,17 +41,20 @@ body {
   font-size: 0.9rem;
   padding: 0 0.4rem;
 }
+
 .main-nav-bar {
   -moz-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
   -webkit-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
   box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
   padding: 1rem 1.1rem;
 }
+
 .main-nav-item {
   font-weight: 400;
   margin-right: 0.7rem;
   opacity: 0.5;
 }
+
 .main-nav-item:hover {
   opacity: 1;
 }
@@ -310,10 +315,12 @@ body {
 .foooter {
   color: #fff;
 }
+
 .footer-nav-items-container {
   background-color: #131313;
   padding: 3rem 0;
 }
+
 .copyright {
   background-color: black;
   padding: 2rem 0;
@@ -443,29 +450,35 @@ ul.timestamp-author {
   .btn-menu {
     display: inline-block;
   }
+
   .main-nav-items,
   .top-navbar,
   .date,
   .creative {
     display: none;
   }
+
   .search-btn {
     border: 0;
   }
+
   .billboard {
     display: flex;
     flex-direction: column;
   }
+
   .billboard-main,
   .billboard-sub,
   .billboard-sub-1,
   .billboard-sub-2 {
     width: 100%;
   }
+
   .latest-news .news-section-1 {
     display: flex;
     flex-direction: column;
   }
+
   .latest-news .news-section-1 .news {
     height: auto;
     margin: 0.8rem auto;
@@ -641,8 +654,8 @@ ul.timestamp-author {
   }
 
   .apps-article-main {
-    background-size: cover;
     background: url(../images/elon-musk.jpeg) no-repeat;
+    background-size: cover;
     height: 17.25rem;
     width: 100%;
   }
