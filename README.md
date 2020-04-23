@@ -2,7 +2,7 @@
 
 > TNW (thenextweb.com)
 
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.jpg)
 
 Additional description about the project and its features.
 
