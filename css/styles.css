@@ -1,12 +1,25 @@
 body {
   font-family: 'Manrope', sans-serif;
 }
+header {
+  display: flex;
+}
+.navbars-container {
+  flex: 11;
+}
+.logo-container {
+  display: none;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #c09, #f42 85%);
+  width: 4rem;
+  padding: 0.5rem;
+  min-height: 100%;
+}
 
 .logo {
   background-image: linear-gradient(to bottom right, #c09, #f42 85%);
-  border: 1px solid red;
-  display: none;
   min-height: 100%;
+  display: none;
   padding: 5px 10px;
   text-decoration: none;
   width: 5rem;
@@ -88,11 +101,14 @@ body {
 .billboard {
   display: flex;
   margin-top: 0.5rem;
-  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .billboard-main {
-  background-image: linear-gradient(135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
+  position: relative;
+  background-image: linear-gradient(135deg, #ff3d00, rgba(0, 0, 0, 0.6)),
+    url(../images/vector.jpg);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -110,7 +126,13 @@ body {
 
 .billboard-sub-1,
 .billboard-sub-2 {
-  background-image: linear-gradient(135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
+  position: relative;
+  background-image: linear-gradient(
+      135deg,
+      rgba(255, 17, 0, 0.7),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(../images/vector.jpg);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -382,7 +404,7 @@ body {
 .contain-logo {
   height: 10rem;
   margin: 1rem 0 3rem 1rem;
-  width: 50%;
+  width: 40%;
 }
 
 .img-fluid {
@@ -398,6 +420,8 @@ body {
 
 .main-content-text-container {
   padding: 0 1rem;
+  position: absolute;
+  bottom: 6%;
 }
 
 .main-content-text {
@@ -473,6 +497,11 @@ ul.timestamp-author {
   .billboard-sub-2 {
     width: 100%;
   }
+  .billboard-main,
+  .billboard-sub-1,
+  .billboard-sub-2 {
+    height: 30vh;
+  }
 
   .latest-news .news-section-1 {
     display: flex;
@@ -527,12 +556,8 @@ ul.timestamp-author {
     font-weight: 800;
   }
 
-  .billboard-main {
-    height: 35vh;
-  }
-
   .main-content-text-container {
-    margin-top: 6rem;
+    margin-top: 7rem;
   }
 
   .news-body {
@@ -540,8 +565,8 @@ ul.timestamp-author {
   }
 
   .image-thumbnail {
-    min-height: 50%;
-    width: 50%;
+    height: auto;
+    width: 75px;
   }
 
   .img-fluid {
@@ -572,6 +597,13 @@ ul.timestamp-author {
 }
 
 @media screen and (min-width: 769px) {
+  .contain-logo,
+  .date {
+    display: none;
+  }
+  .logo-container {
+    display: flex;
+  }
   .billboard-main {
     height: 50vh;
   }
@@ -642,7 +674,14 @@ ul.timestamp-author {
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
+  .contain-logo,
+  .date {
+    display: block;
+  }
+  .logo-container {
+    display: none;
+  }
   .latest-news .news-section-1 .news {
     width: 21.9%;
   }
