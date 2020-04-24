@@ -92,12 +92,7 @@ body {
 }
 
 .billboard-main {
-  background-image: linear-gradient(
-      135deg,
-      rgba(255, 17, 0, 0.7),
-      rgba(0, 0, 0, 0.9)
-    ),
-    url(../images/vector.jpg);
+  background-image: linear-gradient(135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,12 +110,7 @@ body {
 
 .billboard-sub-1,
 .billboard-sub-2 {
-  background-image: linear-gradient(
-      135deg,
-      rgba(255, 17, 0, 0.7),
-      rgba(0, 0, 0, 0.9)
-    ),
-    url(../images/vector.jpg);
+  background-image: linear-gradient(135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -655,9 +645,11 @@ ul.timestamp-author {
   .latest-news .news-section-1 .news {
     width: 21.9%;
   }
+
   .funds > .fund-section-1 {
     width: 23.5%;
   }
+
   .fund-section-1 {
     margin-right: 1rem;
     width: 23.5%;
@@ -674,6 +666,7 @@ ul.timestamp-author {
     height: 17.25rem;
     width: 100%;
   }
+
   .funds > .fund-section-1:last-child {
     display: block;
   }
