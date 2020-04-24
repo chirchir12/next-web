@@ -524,6 +524,9 @@ ul.timestamp-author {
   .article-sub-h5 {
     width: 82%;
   }
+  .funds > .fund-section-1:last-child {
+    display: none;
+  }
 }
 @media screen and (min-width: 769px) {
   .billboard-main {
@@ -585,7 +588,7 @@ ul.timestamp-author {
   .latest-news .news-section-1 .news {
     width: 21.9%;
   }
-  .fund-section-1 {
+  .funds > .fund-section-1 {
     width: 23.5%;
     margin-right: 1rem;
   }
@@ -598,5 +601,8 @@ ul.timestamp-author {
     background-size: cover;
     height: 17.25rem;
     width: 100%;
+  }
+  .funds > .fund-section-1:last-child {
+    display: block;
   }
 }
