@@ -1,0 +1,719 @@
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+.navbars-container {
+  flex: 11;
+}
+
+.logo-container {
+  display: none;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #c09, #f42 85%);
+  width: 4rem;
+  padding: 0.5rem;
+  min-height: 100%;
+}
+
+.logo {
+  background-image: linear-gradient(to bottom right, #c09, #f42 85%);
+  min-height: 100%;
+  display: none;
+  padding: 5px 10px;
+  text-decoration: none;
+  width: 5rem;
+}
+
+.top-navbar {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  padding: 0.5rem 1.1rem;
+}
+
+.top-left-nav-bar-items,
+.top-right-nav-bar-items,
+.main-nav-bar,
+.main-nav-items {
+  align-items: center;
+  display: flex;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.top-left-nav-bar-items,
+.top-right-nav-bar-items,
+.main-nav-items {
+  list-style: none;
+}
+
+.top-nav-bar-item {
+  font-size: 0.9rem;
+  padding: 0 0.4rem;
+}
+
+.main-nav-bar {
+  -moz-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
+  -webkit-box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
+  box-shadow: -2px 10px 6px -6px rgba(230, 227, 230, 1);
+  padding: 1rem 1.1rem;
+}
+
+.main-nav-item {
+  font-weight: 400;
+  margin-right: 0.7rem;
+  opacity: 0.5;
+}
+
+.main-nav-item:hover {
+  opacity: 1;
+}
+
+.search-btn {
+  background: transparent;
+  border: 0;
+  border-left: 1px solid grey;
+  opacity: 0.7;
+  padding: 0 1rem;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.btn-menu {
+  background: transparent;
+  border: 0;
+  color: #f42;
+  display: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.billboard {
+  display: flex;
+  margin-top: 0.5rem;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.billboard-main {
+  background-image: linear-gradient(135deg, #ff3d00, rgba(0, 0, 0, 0.6)), url(../images/vector.jpg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.2rem solid white;
+  color: #fff;
+  height: 70vh;
+  position: relative;
+  width: 65%;
+}
+
+.billboard-sub {
+  color: #fff;
+  width: 35%;
+}
+
+.billboard-sub-1,
+.billboard-sub-2 {
+  position: relative;
+  background-image: linear-gradient(135deg, rgba(255, 17, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/vector.jpg);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.1rem solid white;
+  height: 35vh;
+}
+
+.latest-news {
+  margin-top: 3rem;
+}
+
+.latest-news .news-h3 {
+  color: #f42;
+  font-size: 1.5rem;
+  margin-left: 0.8rem;
+}
+
+.latest-news .news-section-1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.latest-news .news-section-1 .news {
+  height: 40vh;
+  margin: 0.8rem;
+  width: 22.7%;
+}
+
+.latest-fund {
+  margin-top: 2rem;
+}
+
+.latest-fund .fund-h3 {
+  color: #f42;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.timestamp-author li {
+  margin-right: 0.5rem;
+}
+
+.author-timestamp-news li {
+  font-size: 0.9rem;
+  margin-right: 0.4rem;
+  opacity: 0.6;
+}
+
+.article-list > ul li {
+  border-bottom: 0.1px solid lightgrey;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  margin-top: 10px;
+  padding-bottom: 9px;
+}
+
+.article-list > ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.latest-fund .fund-links > li {
+  color: #f42;
+  display: inline-block;
+  list-style: none;
+}
+
+.latest-fund .fund-links > li:not(:last-child) {
+  border-right: 1px solid #f42;
+  margin-right: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.latest-fund .fund-header {
+  align-items: center;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.latest-fund .fund-section-1 .fund-profile-pic {
+  margin-left: 0.8rem;
+  margin-top: 0.8rem;
+  position: absolute;
+}
+
+.latest-fund .fund-section-1 .fund-profile {
+  background-color: #f42;
+  color: white;
+  padding-bottom: 0.4rem;
+  padding-top: 0.6rem;
+}
+
+.funds {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fund-section-1 {
+  margin-right: 1rem;
+  width: 23.6%;
+}
+
+.fund-profile .fund-profile-h3,
+.fund-capital .fund-capital-h3,
+.fund-capital .fund-capital-span {
+  margin-left: 5rem;
+}
+
+.fund-features .fund-features-span {
+  margin-left: 2rem;
+}
+
+.fund-capital .fund-capital-span {
+  font-size: 0.7rem;
+}
+
+.fund-section-1 .fund-capital {
+  background-color: rgba(255, 68, 34, 0.2);
+  color: black;
+  padding-bottom: 0.9rem;
+  padding-top: 0.8rem;
+}
+
+.fund-section-1 .fund-features {
+  background-color: rgba(255, 68, 34, 0.09);
+  color: black;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  padding: 0.5rem 0;
+}
+
+.fund-section-1 .fund-description {
+  background-color: rgba(255, 68, 34, 0.05);
+  border-top: 0.25px solid #f42;
+  color: black;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.fund-section-1 .fund-description .description {
+  margin: 0 10px;
+}
+
+.apps-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.apps-section .apps {
+  margin: 1.5rem 1.5rem 2rem 0;
+  width: 368px;
+}
+
+.apps .appsh3 > a {
+  color: #f42;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.apps-article-main {
+  background: url('../images/elon-musk.jpeg') no-repeat;
+  background-size: cover;
+  height: 17.25rem;
+  width: 23rem;
+}
+
+.apps-article-main .most-popular {
+  color: white;
+  display: block;
+  line-height: 1.5rem;
+  margin: 1rem;
+  padding-top: 10rem;
+}
+
+.apps-article-main .most-popular p {
+  font-size: 0.7rem;
+}
+
+.apps-article-sub {
+  background-color: rgba(255, 68, 34, 0.06);
+  display: flex;
+}
+
+.article-sub-h5 {
+  color: #f42;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  padding: 10px 14px 0;
+  width: 272px;
+}
+
+.article-sub-img {
+  background: url('../images/vector.jpg') no-repeat;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.article-list {
+  margin-left: 20px;
+}
+
+.article-list > ul {
+  list-style: none;
+}
+
+.article-list > ul li::before {
+  color: #f42;
+  content: '\2022';
+  display: inline-block;
+  font-weight: bold;
+  margin-left: -1em;
+  width: 1em;
+}
+
+.foooter {
+  color: #fff;
+}
+
+.footer-nav-items-container {
+  background-color: #131313;
+  padding: 3rem 0;
+}
+
+.copyright {
+  background-color: black;
+  padding: 2rem 0;
+}
+
+.copyright-text {
+  font-size: 0.7rem;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.social-icons,
+.footer-nav-items {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social-icons {
+  margin-bottom: 1rem;
+}
+
+.footer-nav-item {
+  background-color: #616161;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
+.footer-nav-item:hover {
+  background-color: #212121;
+  border: 1px solid #616161;
+  box-sizing: border-box;
+}
+
+.footer-nav-link-item {
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.footer-nav-link {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.contain-logo {
+  height: 10rem;
+  margin: 1rem 0 3rem 1rem;
+  width: 40%;
+}
+
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
+
+.date {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+}
+
+.main-content-text-container {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 6%;
+}
+
+.main-content-text {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-top: 0.4rem;
+}
+
+ul.timestamp-author {
+  display: flex;
+  list-style: none;
+  margin-top: 0.7rem;
+}
+
+.sub-menu-content-tet-container {
+  margin-top: 6rem;
+}
+
+.sub-content-text {
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.image-thumbnail {
+  min-height: 50%;
+  width: 100%;
+}
+
+.news-title {
+  color: black;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+  padding-right: 0.3rem;
+  text-decoration: none;
+}
+
+.news-title:hover {
+  color: red;
+}
+
+.author-timestamp-news {
+  display: flex;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logo,
+  .btn-menu {
+    display: inline-block;
+  }
+
+  .main-nav-items,
+  .top-navbar,
+  .date,
+  .creative {
+    display: none;
+  }
+
+  .search-btn {
+    border: 0;
+  }
+
+  .billboard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .billboard-main,
+  .billboard-sub,
+  .billboard-sub-1,
+  .billboard-sub-2 {
+    width: 100%;
+  }
+
+  .billboard-main,
+  .billboard-sub-1,
+  .billboard-sub-2 {
+    height: 30vh;
+  }
+
+  .latest-news .news-section-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .latest-news .news-section-1 .news {
+    height: auto;
+    margin: 0.8rem auto;
+    width: 100%;
+  }
+
+  .latest-fund .fund-header {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-fund .fund-links > li {
+    color: #f42;
+    display: block;
+    list-style: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .latest-fund .fund-links > li:not(:last-child) {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .funds {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fund-section-1 {
+    width: 100%;
+  }
+
+  .contain-logo {
+    display: none;
+  }
+
+  .main-content-text {
+    font-size: 1.7rem;
+    font-weight: 800;
+  }
+
+  .main-content-text-container {
+    margin-top: 7rem;
+  }
+
+  .news-body {
+    padding-left: 1rem;
+  }
+
+  .image-thumbnail {
+    height: auto;
+    width: 75px;
+  }
+
+  .img-fluid {
+    height: 100%;
+  }
+
+  .news-title {
+    font-size: 0.9rem;
+    line-height: 150%;
+  }
+
+  .apps-article-main {
+    width: 100%;
+  }
+
+  .apps-section .apps {
+    margin: 0 0.5rem;
+    width: 100%;
+  }
+
+  .article-sub-h5 {
+    width: 82%;
+  }
+
+  .funds > .fund-section-1:last-child {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .contain-logo,
+  .date {
+    display: none;
+  }
+
+  .logo-container {
+    display: flex;
+  }
+
+  .billboard-main {
+    height: 50vh;
+  }
+
+  .billboard-sub-1,
+  .billboard-sub-2 {
+    height: 25vh;
+  }
+
+  .sub-menu-content-tet-container {
+    margin-top: 5rem;
+  }
+
+  .main-content-text {
+    font-size: 1.7rem;
+  }
+
+  .sub-content-text {
+    font-size: 1.3rem;
+  }
+
+  .funds {
+    justify-content: center;
+  }
+
+  .latest-news .news-section-1 .news {
+    width: 29.5%;
+  }
+
+  .funds > .fund-section-1 {
+    width: 31%;
+  }
+
+  .funds > .fund-section-1:last-child {
+    display: none;
+  }
+
+  .funds > .fund-section-1:not(:nth-child(3)) {
+    margin-right: 1rem;
+  }
+
+  .latest-fund .fund-h3 {
+    margin: 0;
+  }
+
+  .latest-fund .fund-header {
+    margin-bottom: 1rem;
+  }
+
+  .apps-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .apps-section .apps {
+    margin: 0 0.5rem;
+    width: 47%;
+  }
+
+  .apps-article-main {
+    width: 100%;
+  }
+
+  .article-sub-img {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contain-logo,
+  .date {
+    display: block;
+  }
+
+  .logo-container {
+    display: none;
+  }
+
+  .latest-news .news-section-1 .news {
+    width: 21.9%;
+  }
+
+  .fund-section-1 {
+    margin-right: 1rem;
+    width: 23.5%;
+  }
+
+  .funds > .fund-section-1 {
+    width: 23.5%;
+  }
+
+  .apps-section .apps {
+    margin: 1rem 0.5rem;
+    width: 31.5%;
+  }
+
+  .apps-article-main {
+    background: url(../images/elon-musk.jpeg) no-repeat;
+    background-size: cover;
+    height: 17.25rem;
+    width: 100%;
+  }
+
+  .funds > .fund-section-1:last-child {
+    display: block;
+  }
+}
